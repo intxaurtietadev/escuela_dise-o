@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MASTER EN CSS</title>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./estilos.css" />
+
+    <meta name="theme-color" content="#2091F9" />
+
+    <meta name="title" content="Aprende CSS desde cero" />
+    <meta
+      name="description"
+      content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google."
+    />
+  </head>
+
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <div class="nav__logo">
+          <h2 class="nav__title">Curso Diseño</h2>
+        </div>
+
+        <ul class="nav__link nav__link--menu">
+          <li class="nav__items">
+            <a href="#" class="nav__links">Inicio</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__links">Sobre Nosotros</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__links">Cursos</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__links">Testimonios</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__links">Contacto</a>
+          </li>
+
+          <img src="./images/close.svg" class="nav__close" />
+        </ul>
+
+        <div class="nav__menu">
+          <img src="./images/menu.svg" class="nav__img" />
+        </div>
+      </nav>
+
+      <section class="hero__container container">
+        <h1 class="hero__title">Transforma Tu Vida a Través del Diseño</h1>
+        <p class="hero__paragraph">
+          Descubre cómo el diseño puede desbloquear tu potencial creativo y
+          personal. Comienza hoy mismo tu viaje hacia una identidad visual única
+          y poderosa.
+        </p>
+        <a href="#" class="cta">Descubre Tu Estilo</a>
+      </section>
+    </header>
+
+    <main>
+      <section class="container about">
+        <h2 class="subtitle">¿Qué aprenderás en este curso?</h2>
+        <p class="about__paragraph">
+          El diseño no es solo una habilidad, es una herramienta poderosa para
+          transformar tu vida. En nuestra plataforma, te ofrecemos los recursos
+          y el conocimiento para utilizar el diseño como un medio para el
+          crecimiento personal y profesional
+        </p>
+
+        <div class="about__main">
+          <article class="about__icons">
+            <img src="./images/shapes.svg" class="about__icon" />
+            <h3 class="about__title">Diseño Impactantes</h3>
+            <p class="about__paragrah">
+              Desde los fundamentos del diseño gráfico hasta técnicas avanzadas
+              en diseño UX/UI, explora nuestros cursos diseñados para liberar tu
+              creatividad y potenciar tus habilidades.
+            </p>
+          </article>
+
+          <article class="about__icons">
+            <img src="./images/paint.svg" class="about__icon" />
+            <h3 class="about__title">Proyectos Reales</h3>
+            <p class="about__paragrah">
+              Trabaja en proyectos auténticos que te prepararán para enfrentar
+              desafíos reales y construir un portafolio que te distinga en la
+              industria
+            </p>
+          </article>
+
+          <article class="about__icons">
+            <img src="./images/code.svg" class="about__icon" />
+            <h3 class="about__title">Aprende con profesionales</h3>
+            <p class="about__paragrah">
+              Aprende de diseñadores con experiencia que compartirán contigo sus
+              secretos y estrategias para el éxito en el mundo del diseño
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="knowledge">
+        <div class="knowledge__container container">
+          <div class="knowledege__texts">
+            <h2 class="subtitle">Haz Realidad Tu Visión Creativa</h2>
+            <p class="knowledge__paragraph">
+              El diseño es el puente entre tu imaginación y la realidad. Da el
+              siguiente paso en tu viaje creativo y descubre cómo el diseño
+              puede ser la clave para desbloquear nuevas oportunidades y lograr
+              un crecimiento personal significativo.
+            </p>
+            <a href="#" class="cta">Entra al curso</a>
+          </div>
+
+          <figure class="knowledge__picture">
+            <img src="./images/macbook.png" class="knowledge__img" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="price container">
+        <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+
+        <div class="price__table">
+          <div class="price__element">
+            <p class="price__name">Diseño Gráfico</p>
+            <h3 class="price__price">Gratis</h3>
+
+            <div class="price__items">
+              <p class="price__features">Fundamentos del diseño</p>
+              <p class="price__features">Herramientas profesionales</p>
+              <p class="price__features">Proyectos prácticos</p>
+            </div>
+
+            <a href="#" class="price__cta">Empieza ahora</a>
+          </div>
+
+          <div class="price__element price__element--best">
+            <p class="price__name">UX/UI</p>
+            <h3 class="price__price">50€/mes</h3>
+
+            <div class="price__items">
+              <p class="price__features">Principios de UX/UI</p>
+              <p class="price__features">Investigación y pruebas</p>
+              <p class="price__features">Diseño de prototipos</p>
+            </div>
+
+            <a href="#" class="price__cta">Empieza ahora</a>
+          </div>
+
+          <div class="price__element">
+            <p class="price__name">Branding y Estrategia Visual</p>
+            <h3 class="price__price">80€/mes</h3>
+
+            <div class="price__items">
+              <p class="price__features">Desarrollo de identidad de marca</p>
+              <p class="price__features">Creación de guías de estilo</p>
+              <p class="price__features">Posicionamiento de marca</p>
+            </div>
+
+            <a href="#" class="price__cta">Empieza ahora</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimony">
+        <div class="testimony__container container">
+          <img
+            src="./images/leftarrow.svg"
+            class="testimony__arrow"
+            id="before"
+          />
+
+          <section class="testimony__body testimony__body--show" data-id="1">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Ana Martínez,
+                <span class="testimony__course">Diseñadora Gráfica.</span>
+              </h2>
+              <p class="testimony__review">
+                "El curso me abrió los ojos a un nuevo mundo de posibilidades en
+                el diseño. No solo aprendí técnicas avanzadas, sino que también
+                descubrí cómo aplicar el diseño para transformar mi carrera
+                profesional y mi vida personal. La formación ha sido una
+                inversión invaluable en mi futuro."
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/face.jpg" class="testimony__img" />
+            </figure>
+          </section>
+
+          <section class="testimony__body" data-id="2">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Laura Pérez,
+                <span class="testimony__course">Creativa Independiente.</span>
+              </h2>
+              <p class="testimony__review">
+                "Este curso no solo me enseñó las herramientas necesarias para
+                un diseño efectivo, sino que también me inspiró a desarrollar mi
+                propio estilo y enfoque único. El cambio en mi manera de ver el
+                diseño ha sido profundo, y los resultados hablan por sí mismos."
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/face2.jpg" class="testimony__img" />
+            </figure>
+          </section>
+
+          <section class="testimony__body" data-id="3">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Carlos López,
+                <span class="testimony__course">Consultor de Diseño</span>
+              </h2>
+              <p class="testimony__review">
+                "Gracias al curso, he logrado una evolución significativa en mi
+                enfoque hacia el diseño. Las habilidades adquiridas me han
+                permitido crear proyectos más impactantes y conectarme mejor con
+                mis clientes. Mi capacidad para comunicar visualmente ha
+                alcanzado un nuevo nivel."
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/face3.jpg" class="testimony__img" />
+            </figure>
+          </section>
+
+          <img
+            src="./images/rightarrow.svg"
+            class="testimony__arrow"
+            id="next"
+          />
+        </div>
+      </section>
+
+      <section class="questions container">
+        <h2 class="subtitle">Preguntas Frecuentes</h2>
+        <p class="questions__paragraph">
+          Todo lo que necesitas saber sobre la transformación personal a través
+          del diseño.
+        </p>
+
+        <section class="questions__container">
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                ¿Qué es la transformación personal a través del diseño?
+                <span class="questions__arrow">
+                  <img src="./images/arrow.svg" class="questions__img"
+                /></span>
+              </h3>
+
+              <p class="questions__show">
+                La transformación personal a través del diseño es el proceso de
+                utilizar principios y técnicas de diseño para mejorar y
+                redefinir aspectos de tu vida y carrera. Al aprender a aplicar
+                el diseño de manera efectiva, puedes alcanzar nuevas metas,
+                comunicar tu visión de manera más clara y desarrollar
+                habilidades que impacten positivamente en tu vida personal y
+                profesional.
+              </p>
+            </div>
+
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                ¿Cómo puede el diseño impactar mi desarrollo profesional?
+                <span class="questions__arrow">
+                  <img src="./images/arrow.svg" class="questions__img"
+                /></span>
+              </h3>
+
+              <p class="questions__show">
+                El diseño tiene el poder de transformar cómo te presentas y cómo
+                eres percibido en el ámbito profesional. Al dominar habilidades
+                de diseño, puedes crear portafolios impresionantes, destacar en
+                entrevistas, y desarrollar una marca personal fuerte. Esto no
+                solo abre nuevas oportunidades de empleo, sino que también puede
+                potenciar tu capacidad para influir y liderar en tu campo.
+              </p>
+            </div>
+
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                ¿Necesito experiencia previa en diseño para tomar estos cursos?
+                <span class="questions__arrow">
+                  <img src="./images/arrow.svg" class="questions__img"
+                /></span>
+              </h3>
+
+              <p class="questions__show">
+                No, nuestros cursos están diseñados para todos los niveles,
+                desde principiantes hasta profesionales. Empezamos con
+                fundamentos esenciales y avanzamos hacia técnicas más complejas.
+                Si estás dispuesto a aprender y a aplicar lo que enseñamos,
+                estarás en camino hacia una transformación significativa en tu
+                enfoque del diseño.
+              </p>
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__container container">
+        <nav class="nav nav--footer">
+          <h2 class="footer__title">Transfórmate.</h2>
+
+          <ul class="nav__link nav__link--footer">
+            <li class="nav__items">
+              <a href="#" class="nav__links">Inicio</a>
+            </li>
+            <li class="nav__items">
+              <a href="#" class="nav__links">Sobre Nosotros</a>
+            </li>
+            <li class="nav__items">
+              <a href="#" class="nav__links">Cursos</a>
+            </li>
+            <li class="nav__items">
+                <a href="#" class="nav__links">Testimonios</a>
+              </li>
+            <li class="nav__items">
+              <a href="#" class="nav__links">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <form class="footer__form">
+          <h2 class="footer__newsletter">Suscríbete a la newsletter</h2>
+          <div class="footer__inputs">
+            <input type="email" placeholder="Email:" class="footer__input" />
+            <input type="submit" class="footer__submit" />
+          </div>
+        </form>
+      </section>
+    </footer>
+
+    <!-- Enlace a los scripts JS -->
+    <script src="menu.js"></script>
+    <script src="questions.js"></script>
+    <script src="testimony.js"></script>
+  </body>
+</html>
