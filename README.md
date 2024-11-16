@@ -7,11 +7,8 @@ An interactive and educational landing page template focused on design school co
 - [Features](#features)
 - [Demo](#demo)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 **escuela_diseño** is a versatile landing page designed for educational purposes, showcasing programs or courses in a visually appealing way.
