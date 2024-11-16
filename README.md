@@ -38,5 +38,3 @@ Dependencies
 No additional libraries required.
 Contributing
 Contributions are appreciated! Feel free to open issues or submit pull requests.
-
-Let me know if you need to expand or customize any section further!
